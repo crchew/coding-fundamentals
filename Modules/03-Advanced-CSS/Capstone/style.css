@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+svg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin: 50px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-top: 70px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #222222;
+  font-weight: 700;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+.login-btn{
+  margin-top: 60px;
+  padding: 15px;
+  border-radius: 30px;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  cursor: pointer;
+}
+
+.login-btn a{
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.login-btn:hover{
+  background-color: #222222;
+  text-decoration: none;
+}
+
+.navbar-items{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+}
+
+/* header style */
+.header-cta{
+  padding: 50px;
+  background-color: lemonchiffon;
+  height: 300px;
+}
+
+header h3{
+  padding: 20px 0px;
+}
+
+/* card layout */
+.content-card{
+  display: flex;
+  flex-direction: row;
+}
+
+/* card style */
+.contact-info{
+  width: 40%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.contact-info h3{
+  padding: 20px 0px;
+}
+
+.contact-details{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.card-icon{
+  margin: 10px 0px;
+  height: 30px;
+  width: 30px;
+  flex-basis: 30%;
+}
+
+.contact-details p{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 70%;
+}
+
+/* Social Media Links */
+.social-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.fa{
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Contact form style */
+
+.contact-form{
+  width: 59%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.contact-form h2{
+  padding: 10px;
+}
+
+.form-group {
+  display: inline-block;
+  width: 49%;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.text-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form input {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: black;
+  color: goldenrod;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
