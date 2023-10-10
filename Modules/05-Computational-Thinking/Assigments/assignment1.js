@@ -1,7 +1,7 @@
 function possibleBonus(currentPosition, friendPosition){
     // Check if both players are on the same tile
     if (currentPosition === friendPosition) {
-        return false;
+        return true;
     }
     // Calculate the difference between positions
     const diceRoll = friendPosition - currentPosition
