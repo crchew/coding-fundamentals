@@ -1,0 +1,109 @@
+*{
+ font-family: 'Poppins', sans-serif
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7rem;
+  z-index: 1;
+  transition: 0.3s ease-out;
+  background-color: #ddd;
+  }
+
+.scroll{
+  position: fixed;
+  top: -7rem; /* to hide nav bar while scrolling down */
+  left: 0;
+  width: 100%;
+  height: 7rem; 
+  z-index: 1;
+  transition: 0.3s ease-out;
+}
+
+.material-icons {
+  position: absolute;
+  left: 10%;
+  bottom: 1rem;
+  color: black;
+  padding: 20px;
+}
+
+.material-icons:hover{
+  color:#333;
+  cursor: pointer;
+}
+
+/* Styling the navigation links in navbar */
+nav{
+  position: absolute;
+  left: 40%;
+  bottom: 1rem;
+  width: 60%;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+nav ul a {
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav ul a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: green;
+  color: white;
+}
+
+/* Styling main content */
+.banner{
+  background-color: #333;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  margin-top: 10px;
+  padding: 100px;
+  overflow: hidden;
+  line-height: 50px;
+}
+
+.banner > h1 {
+  width: 40%;
+  font-size: 50px;
+}
+
+.banner > p {
+  width: 40%;
+}
+
+img{
+  float: right;
+  width: 50%;
+}
+
+button{
+  margin-top: 50px;
+  border-color: bisque;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: antiquewhite;
+}
